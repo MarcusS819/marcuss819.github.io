@@ -16,13 +16,6 @@ body {
   font-family: "Arial", sans-serif;
 }
 
-.bio-grid {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 600px 600px;
-  column-gap: 20px;
-}
-
 .bio-photo {
   margin-top: 42px;
   margin-left: 10px;
@@ -46,7 +39,9 @@ body {
 
 .bio-grid {
   display: grid;
+  justify-content: center;
   grid-template-columns: 100px 400px;
+  column-gap: 20px;
   background-color: rgba(0, 0, 0, 0.9);
   border-style: solid;
   border-width: 0.2px;
